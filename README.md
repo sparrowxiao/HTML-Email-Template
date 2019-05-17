@@ -1,10 +1,12 @@
-![screencapture-file-Users-ting-Library-Containers-com-apple-Safari-Data-Downloads-HTML-Email-Template-master-01-standard-template-html-2019-03-18-17_04_29](https://user-images.githubusercontent.com/2945947/54563641-1bb5b900-49a0-11e9-9b66-48292819a52c.png)
+![screencapture-file-Users-ting-Downloads-HTML-Email-Template-master-2-01-standard-template-html-2019-05-17-14_48_24](https://user-images.githubusercontent.com/2945947/57949920-bbfe6000-78b3-11e9-8aeb-2e471404f9de.png)
+
 # HTML-Email-Template
 Very Basic HTML Email Template
 This template includes
 - [x] full width image (responsible UX)
 - [x] two columns layout (responsible UX)
 - [x] three columns layout (responsible UX)
+- [x] bulletproof buttons style
 
 HTML Email Troubleshooting
 - [x] don't be panic first, deeply breath and go through this bug check list after that.
