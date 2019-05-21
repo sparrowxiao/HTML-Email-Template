@@ -1,6 +1,6 @@
 # HTML-Email-Template [![Build Status](https://img.shields.io/travis/fatih/color.svg?style=flat-square)](https://travis-ci.org/fatih/color)
 
-### Screenshot fo the HTML email template
+### Screenshot of this HTML email template
 ![screencapture-file-Users-ting-Downloads-HTML-Email-Template-master-2-01-standard-template-html-2019-05-17-14_48_24](https://user-images.githubusercontent.com/2945947/57949920-bbfe6000-78b3-11e9-8aeb-2e471404f9de.png)
 
 ### Very Basic HTML Email Template
@@ -12,7 +12,12 @@
 - [x] bulletproof buttons style
 
 #### HTML Email Troubleshooting
-- [x] don't be panic first, deeply breath and go through this bug check list after that.
+- [x] don't be panic first, deeply breath and go through this bug check list and check some useful reference.
+
+* ** Good Marketing Email Service **
+  [Litmus](https://litmus.com): I like their email render feature
+  [Campain Monitor](https://www.campaignmonitor.com): I like their resources
+  
 - [ ] Couldn't achieve the responsible font size on different screen.<br/>Check the image added in the email template, sometimes the image increase the max-width of the template and the email client cannot do the media requirement correctly.
 
 #### Special Issues on Outlook
@@ -23,3 +28,4 @@
 
 #### Special Issues on Pardot
 - [x] Pardot render all the http or https link into the track link for analysis in its platform to avoid the webfont links are rendered please use the import way when you need it
+
