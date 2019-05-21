@@ -18,7 +18,7 @@
 
   [Litmus](https://litmus.com): I like their email render feature
   
-  [Campain Monitor](https://www.campaignmonitor.com): I like their resource section
+  [Campaign Monitor](https://www.campaignmonitor.com): I like their resource section
   
 - [ ] Couldn't achieve the responsible font size on different screen.<br/>Check the image added in the email template, sometimes the image increase the max-width of the template and the email client cannot do the media requirement correctly.
 
