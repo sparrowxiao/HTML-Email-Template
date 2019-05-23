@@ -31,11 +31,11 @@
 #### Special Issues on Pardot
 - [x] Pardot render all the http or https link into the track link for analysis in its platform. So in order to avoid the webfont links treated as track link just put it in <style> tag.
 
-- [x] I personally don't like the test email feature from Pardot, since it is too too slow, local server might be pretty fast. Use command line here can make your life much easier after install SendEmail service.
+- [x] I personally don't like the test email feature from Pardot, since it is too too slow, local server might be pretty fast. Use command line here can make life much easier after installing SendEmail service (MacOSX).
 ```
 brew SendEmail
 
-/usr/local/Cellar/sendemail/1.56/bin/sendEmail -f yoursender@gmail.com -t yourrecipt@gmail.com < youttestemail.html -s smtp.gmail.com:587 -xu youraccount@gmail.com -xp password
+/usr/local/Cellar/sendemail/1.56/bin/sendEmail -f yoursender@gmail.com -t yourRecipient@gmail.com < youttestemail.html -s smtp.gmail.com:587 -xu youraccount@gmail.com -xp password
 
 ```
 
