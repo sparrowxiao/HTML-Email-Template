@@ -38,6 +38,6 @@ brew SendEmail
 /usr/local/Cellar/sendemail/1.56/bin/sendEmail -f yoursender@gmail.com -t yourRecipient@gmail.com < youttestemail.html -s smtp.gmail.com:587 -xu youraccount@gmail.com -xp password
 
 ```
-- [ ] I am working on embed Jenkins pipeline tool for send test email automatically
+- [ ] I am working a small project of embeding Jenkins pipeline tool for sending test email automatically
 
 
