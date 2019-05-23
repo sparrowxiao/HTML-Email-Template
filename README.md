@@ -38,6 +38,33 @@ brew SendEmail
 /usr/local/Cellar/sendemail/1.56/bin/sendEmail -f yoursender@gmail.com -t yourRecipient@gmail.com < youttestemail.html -s smtp.gmail.com:587 -xu youraccount@gmail.com -xp password
 
 ```
-- [ ] I am working a small project of embeding Jenkins pipeline tool for sending test email automatically
+- [x] Nice try of pipeline service from Jenkins, config your email service in Jenkins plugin, I will update this readme later.
+```
+pipeline {
+   agent any
+    
+    stages {
+        stage('clone repo and clean it'){
+            steps{
+                sh "rm -rf HTML-Email-Template"
+                sh "git clone https://github.com/sparrowxiao/HTML-Email-Template.git"
+            }
+        }
+        stage('Ok') {
+            steps {
+                echo "Ok"
+            }
+        }
+    }
+    post {
+        always {
+            emailext mimeType: 'text/html', 
+            body: '${FILE,path="/Users/Shared/Jenkins/Home/workspace/send-test-email/HTML-Email-Template/01-standard-template.html"}', recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']], subject: 'Test'
+        }
+    }
+  
+}
+```
+
 
 
