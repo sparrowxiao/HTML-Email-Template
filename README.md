@@ -38,7 +38,7 @@ brew SendEmail
 /usr/local/Cellar/sendemail/1.56/bin/sendEmail -f yoursender@gmail.com -t yourRecipient@gmail.com < youttestemail.html -s smtp.gmail.com:587 -xu youraccount@gmail.com -xp password
 
 ```
-- [x] Nice try of pipeline service from Jenkins, config your email service in Jenkins plugin, I will update this readme later.
+- [x] Nice try of pipeline service from Jenkins, but config your email service in Jenkins plugin first and add this code in pipeline.
 ```
 pipeline {
    agent any
