@@ -12,7 +12,7 @@
 - [x] bulletproof buttons style
 
 #### HTML Email Troubleshooting
-- [x] don't be panic first, deeply breath and go through this bug check list and check some useful reference.
+- [x] don't be panic first, deeply breath and go through this bug check list and check some useful notes here.
 
 * **Good Marketing Email Service**
 
@@ -29,5 +29,14 @@
 - [ ] Outlook2007-2013 on Windows(7-10) some copy has been cut off.
 
 #### Special Issues on Pardot
-- [x] Pardot render all the http or https link into the track link for analysis in its platform to avoid the webfont links are rendered please use the import way when you need it
+- [x] Pardot render all the http or https link into the track link for analysis in its platform. So in order to avoid the webfont links treated as track link just put it in <style> tag.
+
+- [x] I personally don't like the test email feature from Pardot, since it is too too slow, local server might be pretty fast. Use command line here can make your life much easier after install SendEmail service.
+```
+brew SendEmail
+
+/usr/local/Cellar/sendemail/1.56/bin/sendEmail -f yoursender@gmail.com -t yourrecipt@gmail.com < youttestemail.html -s smtp.gmail.com:587 -xu youraccount@gmail.com -xp password
+
+```
+
 
