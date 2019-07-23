@@ -1,4 +1,4 @@
-# HTML-Email-Template [![Build Status](https://img.shields.io/travis/fatih/color.svg?style=flat-square)](https://travis-ci.org/fatih/color)
+# [![Build Status](https://img.shields.io/travis/fatih/color.svg?style=flat-square)](https://travis-ci.org/fatih/color)
 
 ## Screenshot of this HTML email template
 ![screencapture-file-Users-ting-Downloads-HTML-Email-Template-master-2-01-standard-template-html-2019-05-17-14_48_24](https://user-images.githubusercontent.com/2945947/57949920-bbfe6000-78b3-11e9-8aeb-2e471404f9de.png)
@@ -68,8 +68,8 @@ pipeline {
 
 ## **Good Marketing Email Service**
 
-   -[Litmus](https://litmus.com): I like their email render feature
+   - [Litmus](https://litmus.com): I like their email render feature
   
-   -[Campaign Monitor](https://www.campaignmonitor.com): I like their resource section
+   - [Campaign Monitor](https://www.campaignmonitor.com): I like their resource section
 
 
