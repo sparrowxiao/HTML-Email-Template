@@ -42,7 +42,7 @@ brew SendEmail
 If you never use it before, you can follow this post.https://medium.com/@gustavo.guss/jenkins-sending-email-on-post-build-938b236545d2 configure the Jenkins Email plugins, then create the pipeline and configure it as the screenshot, then add the script to the pipeline part and build it.
 <img width="639" alt="Screen Shot 2019-05-24 at 4 18 28 PM" src="https://user-images.githubusercontent.com/2945947/58354564-de5a2580-7e3f-11e9-818a-a38afcef1464.png">
 
-```
+```bash
 pipeline {
    agent any
     
