@@ -33,11 +33,15 @@
 
 ## SendEmail service on MacOS
 - [x] I personally don't like the test email feature from Pardot, since it is too too slow, local server might be pretty fast. Use command line here can make life much easier. Here is my try, installed SendEmail service on MacOS.
+
 ```
 brew SendEmail
+```
 
+```
 /usr/local/Cellar/sendemail/1.56/bin/sendEmail -f yoursender@gmail.com -t yourRecipient@gmail.com < youttestemail.html -s smtp.gmail.com:587 -xu youraccount@gmail.com -xp password
 ```
+
 - [x] Jenkins pipeline service is perfect to test the created template on your own email client, and the speed is extreamly fast. 
 If you never use it before, you can follow this post.https://medium.com/@gustavo.guss/jenkins-sending-email-on-post-build-938b236545d2 configure the Jenkins Email plugins, then create the pipeline and configure it as the screenshot, then add the script to the pipeline part and build it.
 
@@ -47,7 +51,6 @@ If you never use it before, you can follow this post.https://medium.com/@gustavo
 ```
 pipeline {
    agent any
-    
     stages {
         stage('clone repo and clean it'){
             steps{
