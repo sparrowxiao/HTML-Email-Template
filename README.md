@@ -1,8 +1,5 @@
 # [![Build Status](https://img.shields.io/travis/fatih/color.svg?style=flat-square)](https://travis-ci.org/fatih/color)
 
-## Screenshot of this HTML email template
-![screencapture-file-Users-ting-Downloads-HTML-Email-Template-master-2-01-standard-template-html-2019-05-17-14_48_24](https://user-images.githubusercontent.com/2945947/57949920-bbfe6000-78b3-11e9-8aeb-2e471404f9de.png)
-
 ## This template includes
 - [x] Full width image (responsible UX)
 - [x] Two columns layout (responsible UX)
@@ -10,6 +7,9 @@
 - [x] Bulletproof buttons style
 - [x] Send email automatically 
 - [x] Test email with Jenkins
+
+## Screenshot of this HTML email template
+![screencapture-file-Users-ting-Downloads-HTML-Email-Template-master-2-01-standard-template-html-2019-05-17-14_48_24](https://user-images.githubusercontent.com/2945947/57949920-bbfe6000-78b3-11e9-8aeb-2e471404f9de.png)
 
 ## HTML Email Troubleshooting
 1. - [x] don't be panic first, deeply breath and go through this bug check list and check some useful notes here. 
