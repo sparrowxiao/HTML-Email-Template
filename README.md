@@ -1,17 +1,17 @@
 # HTML-Email-Template [![Build Status](https://img.shields.io/travis/fatih/color.svg?style=flat-square)](https://travis-ci.org/fatih/color)
 
-### Screenshot of this HTML email template
+## Screenshot of this HTML email template
 ![screencapture-file-Users-ting-Downloads-HTML-Email-Template-master-2-01-standard-template-html-2019-05-17-14_48_24](https://user-images.githubusercontent.com/2945947/57949920-bbfe6000-78b3-11e9-8aeb-2e471404f9de.png)
 
-### Very Basic HTML Email Template
+## This template includes
+- [x] Full width image (responsible UX)
+- [x] Two columns layout (responsible UX)
+- [x] Three columns layout (hybrid UX)
+- [x] Bulletproof buttons style
+- [x] Send email automatically 
+- [x] Test email with Jenkins
 
-#### This template includes
-- [x] full width image (responsible UX)
-- [x] two columns layout (responsible UX)
-- [x] three columns layout (responsible UX)
-- [x] bulletproof buttons style
-
-#### HTML Email Troubleshooting
+## HTML Email Troubleshooting
 - [x] don't be panic first, deeply breath and go through this bug check list and check some useful notes here.
 
 * **Good Marketing Email Service**
@@ -31,6 +31,7 @@
 #### Special Issues on Pardot
 - [x] Pardot render all the http or https link into the track link for analysis in its platform. So in order to avoid the webfont links treated as track link just put it in <style> tag.
 
+## SendEmail service on MacOS
 - [x] I personally don't like the test email feature from Pardot, since it is too too slow, local server might be pretty fast. Use command line here can make life much easier. Here is my try, installed SendEmail service on MacOS.
 ```
 brew SendEmail
@@ -39,7 +40,9 @@ brew SendEmail
 ```
 - [x] Jenkins pipeline service is perfect to test the created template on your own email client, and the speed is extreamly fast. 
 If you never use it before, you can follow this post.https://medium.com/@gustavo.guss/jenkins-sending-email-on-post-build-938b236545d2 configure the Jenkins Email plugins, then create the pipeline and configure it as the screenshot, then add the script to the pipeline part and build it.
-<img width="639" alt="Screen Shot 2019-05-24 at 4 18 28 PM" src="https://user-images.githubusercontent.com/2945947/58354564-de5a2580-7e3f-11e9-818a-a38afcef1464.png">
+
+## Email Test with Jenkins pipeline settings
+![screencapture-file-Jenkins-pipeline-settings](https://user-images.githubusercontent.com/2945947/58354564-de5a2580-7e3f-11e9-818a-a38afcef1464.png)
 
 ```
 pipeline {
