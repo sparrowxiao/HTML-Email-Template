@@ -12,24 +12,18 @@
 - [x] Test email with Jenkins
 
 ## HTML Email Troubleshooting
-1. - [x] don't be panic first, deeply breath and go through this bug check list and check some useful notes here.
+1. - [x] don't be panic first, deeply breath and go through this bug check list and check some useful notes here. 
 
-   - **Good Marketing Email Service**
-
-     -[Litmus](https://litmus.com): I like their email render feature
-  
-     -[Campaign Monitor](https://www.campaignmonitor.com): I like their resource section
-  
    - [ ] Couldn't achieve the responsible font size on different screen.<br/>Check the image added in the email template, sometimes the image increase the max-width of the template and the email client cannot do the media requirement correctly.
 
 2. #### Special Issues on Outlook
-- [x] Outlook2007-2016 on Windows 7 the bullet indent is not right.<br/>  Using the inline sytle mso-special-format:bullet can fix it.
-- [x] Outlook2007-2013 on Windows(7-10) Image shown up in real size. For example if the header image is 1180x400, then this image will break the max-width of the mail 600 px. <br/>
+  - [x] Outlook2007-2016 on Windows 7 the bullet indent is not right.<br/>  Using the inline sytle mso-special-format:bullet can fix it.
+  - [x] Outlook2007-2013 on Windows(7-10) Image shown up in real size. For example if the header image is 1180x400, then this image will break the max-width of the mail 600 px. <br/>
   Using the right size of the image is important while creating the email HTML.
-- [ ] Outlook2007-2013 on Windows(7-10) some copy has been cut off.
+  - [ ] Outlook2007-2013 on Windows(7-10) some copy has been cut off.
 
 3. #### Special Issues on Pardot
-- [x] Pardot render all the http or https link into the track link for analysis in its platform. So in order to avoid the webfont links treated as track link just put it in <style> tag.
+  - [x] Pardot render all the http or https link into the track link for analysis in its platform. So in order to avoid the webfont links treated as track link just put it in <style> tag.
 
 ## SendEmail service on MacOS
 - [x] I personally don't like the test email feature from Pardot, since it is too too slow, local server might be pretty fast. Use command line here can make life much easier. Here is my try, installed SendEmail service on MacOS.
@@ -72,5 +66,10 @@ pipeline {
 }
 ```
 
+## **Good Marketing Email Service**
+
+   -[Litmus](https://litmus.com): I like their email render feature
+  
+   -[Campaign Monitor](https://www.campaignmonitor.com): I like their resource section
 
 
